@@ -37,13 +37,13 @@ $(document).ready(function(){
 
 // original console and works
 // var i;
-//   for (i = 1; i<= 15; i++) {
-//     if (i % 15 == 0) {
-//       console.log("Ping Pong");
-//     } else if (i % 5 == 0) {
-//      console.log("Ping");
-//     } else if (i % 3== 0) {
-//      console.log("Pong");
-//     } else
-//      console.log(i)
-//   }
+  // for (i = 1; i<= 30; i++) {
+  //   if (i % 15 == 0) {
+  //     console.log("Ping Pong");
+  //   } else if (i % 5 == 0) {
+  //    console.log("Ping");
+  //   } else if (i % 3== 0) {
+  //    console.log("Pong");
+  //   } else
+  //    console.log(i)
+  // }
