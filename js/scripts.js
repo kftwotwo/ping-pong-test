@@ -3,11 +3,11 @@ var list = [];
 var pingPong = function(num) {
   for (i = 1; i<= num; i++) {
     if (i % 15 == 0) {
-      list[i] = "Ping Pong";
+      list[i].push("Ping Pong");
     } else if (i % 5 == 0) {
-     list[i] = "Ping";
+     list[i].push("Pong");
     } else if (i % 3 == 0) {
-     list[i] = "Pong";
+     list[i].push("Ping");
     } else
      list[i];
   }
