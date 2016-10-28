@@ -18,11 +18,11 @@ var pingPong = function(num) {
 $(document).ready(function(){
   $("#userInput").submit(function(event){
     event.preventDefault();
-    var input = $("userInput").val();
-    var results = pingPong(input);
+    var input = $("#userInput").val();
+    var results = pingPong(num);
     $("#output").empty();
     results.forEach(function(result) {
-      if (result == "Ping Pong") {
+      if (list == "Ping Pong") {
         $("#output").text("<li>" + result + "</li>");
       } else if (result = "pong") {
         $("#output").text("<li>" + result + "</li>");
@@ -36,7 +36,7 @@ $(document).ready(function(){
 })
 
 
-
+// original console and works
 // var i;
 //   for (i = 1; i<= 15; i++) {
 //     if (i % 15 == 0) {
