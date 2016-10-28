@@ -3,17 +3,26 @@
   <head>
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>Ping-Pong</title>
   </head>
   <body>
     <h1>Ping-Pong</h1>
+    <h3>Let's Play</h3>
+    <p>
+      It will count up to your input but the following exceptions:
+    </p>
+    <ol>
+      <li>Number divisible by 3 will be replaced with ping.</li>
+      <li>Number divisible by 5 will be replaced with pong.</li>
+      <li>Number divisible by 15 will be replaced with ping-pong.</li>
+    </ol>
     <form id="form">
       <input  id="userInput" type="text">
       <button type="submit">Ping Pong!</button>
-      <ul id="output">
-      </ul>
     </form>
+    <ul id="output">
+    </ul>
   </body>
 </html>

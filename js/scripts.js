@@ -20,16 +20,15 @@ $(document).ready(function(){
     var input = $("#userInput").val();
     var results = pingPong(input);
     $("#output").empty();
-    results.every(function(result) {
-      if (result == "Ping Pong") {
-        $("#output").append("<li>" + results + "</li>");
-      } else if (result = "pong") {
-        $("#output").append("<li>" + results + "</li>");
-      } else if (result = "ping") {
-        $("#output").append("<li>" + results + "</li>");
-      } else {
-        $("#output").append("<li>" + results + "</li>");
-      }
+     results.forEach(function(result) {
+    //   if (result == "Ping Pong") {
+        $("#output").append("<li>" + result + "</li>");
+      // } else if (result = "pong") {
+        // $("#output").append("<li>" + results + "</li>");
+      // } else if (result = "ping") {
+        // $("#output").append("<li>" + results + "</li>");
+      // } else {
+        // $("#output").append("<li>" + results + "</li>");
     })
   })
 })
