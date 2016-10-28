@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage will take 3 and replace it with ping and with a five it will be pong, and 15 will be ping-pong. _
+_This webpage will take 3 and replace it with ping and with a five it will be pong, and 15 will be ping-pong._
 
 ## Setup/Installation Requirements
 
@@ -17,20 +17,20 @@ _This webpage will take 3 and replace it with ping and with a five it will be po
 ## Specifications
 
 _1) Show each number in a list to the input the user put in._
-*_Input: 15_
-*_Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15_
+* _Input: 15_
+* _Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15_
 
 _2) It will change all numbers divisible by 15 to ping-pong._
-*_Input: 15_
+* _Input: 15_
 *_Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ping-pong_
 
 _3) it will change all numbers divisible by 5 to pong._
-*_Input: 15_
+* _Input: 15_
 *_Output: 1, 2, 3, 4, pong, 6, 7, 8, 9, pong, 11, 12, 13, 14, ping-pong_
 
 _4) it will change all numbers divisible by 3 to ping._
-*_Input: 17_
-*_Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong_
+* _Input: 17_
+* _Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong_
 
 ## Known Bugs
 
