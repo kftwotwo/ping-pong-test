@@ -1,6 +1,6 @@
-var list = [];
 
 var pingPong = function(num) {
+  var list = [];
   for (i = 1; i<= num; i++) {
     if (i % 15 == 0) {
       list.push("Ping-Pong");
@@ -19,9 +19,10 @@ $(document).ready(function(){
     event.preventDefault();
     var input = $("#userInput").val();
     var results = pingPong(input);
-   results.forEach(function(result) {
-      $("#output").append("<li>" + result + "</li>");
-    })
+    $("#output").empty();
+    results.forEach(function(result) {
+      $("#output").append("<li class='result'>" + result + "</li>");
+    });
   })
 })
 
